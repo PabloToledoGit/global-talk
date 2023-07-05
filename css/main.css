@@ -11,7 +11,11 @@
     display: flex;
     flex-direction: column;
     width: 30em;
+    height: 25em;
     gap: 1em;
+    margin-right: 4em;
+    padding-bottom: 0;
+    margin-bottom: 0 ;
 }
 
 .corpo__esquerdo__titulo{
@@ -31,7 +35,7 @@
 
 .corpo__esquerdo__paragrafo{
 
-    color: var(--cinza);
+    color: var(--preto);
     font-family: var(--font-padrao);
     font-weight: 1000;
     font-size: 1em;
@@ -40,4 +44,22 @@
 
 .corpo__direito__img{
     width: 35em;
+}
+
+.corpo__esquerdo__baixo__sign{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5em;
+    margin-left: 7em;
+}
+
+
+.imagem__botao{
+
+
+    background-color: #C3DCE3;
+    padding: 1em;
+    border-radius: 1em;
 }
