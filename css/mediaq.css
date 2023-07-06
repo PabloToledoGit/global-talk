@@ -1,0 +1,26 @@
+@media (max-width: 1200px){
+
+    .corpo__direito{
+
+        display: none;
+        
+      
+    }
+
+    .footer-content, footer{
+
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+
+    .cabecalho__navegacao{
+
+        margin: 0;
+        font-size: 0.5em;
+    }
+
+    
+}
+
